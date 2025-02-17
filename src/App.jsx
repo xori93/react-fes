@@ -9,7 +9,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Nav from './components/Nav.jsx';
-import User from './pages/User.jsx';
+import Users from './pages/Users.jsx';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Router> 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/user/:name" element={<User />} />
+          <Route path="/user/:name" element={<Users />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>
