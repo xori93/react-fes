@@ -4,7 +4,7 @@ function User({ id, name, email, username }) {
   return (
     <div key={id} style={{ border: `2px solid black` }}>
           <div>{id}</div>
-          <div>{name}</div>
+          <div>{name.toUpperCase()}</div>
           <div>{email}</div>
           <div>{username}</div>
           {/* short hand notation */}

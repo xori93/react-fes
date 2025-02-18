@@ -15,9 +15,10 @@ import Users from './pages/Users.jsx';
 function App() {
   return (
       <Router> 
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/user/:name" element={<Users />} />
+          <Route path="/users/:id" element={<Users />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>
@@ -26,53 +27,6 @@ function App() {
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // function App() {
